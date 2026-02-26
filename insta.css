@@ -109,9 +109,7 @@ html, body {
     background-color: #F6F6F6;
     position: fixed;
     right: 0;
-    overflow-y: auto;      /* allow feed scrolling */
-    padding-top: 10vh;     /* clear fixed topnav */
-    padding-bottom: 10vh;  /* keep content above bottomnav */
+    overflow-y: auto;   
 }
 .topnav{
     height: 10vh;
@@ -231,13 +229,12 @@ html, body {
     border: 2px solid rgb(148, 60, 74);
 }
 
-/* feed section styles */
 .feedSection{
     width: 100%;
     max-width: 650px;
     margin: 0 auto;
     padding-top: 100px;
-    overflow: auto;
+    z-index: -1;
 }
 
 .post{
